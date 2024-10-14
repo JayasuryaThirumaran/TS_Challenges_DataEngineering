@@ -15,18 +15,24 @@ def load_data(df, db_name, table_name):
     Returns:
     - None
     """
+    if df.empty:
+        print("Empty DataFrame received. No data to load.")
+        return
+
+    try:
+        # Connect to SQLite database (creates the database if it doesn't exist)
+               #TODO
+
+        # Create a table if it doesn't exist
+               #TODO
+
+        # Insert data into the table
+               #TODO
+
+        # Commit and close the connection
+              #
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
    
 
 
-def generate_create_table_query(df, table_name):
-    """
-    Generates a SQL query to create a table based on the DataFrame schema.
-
-    Parameters:
-    - df (pd.DataFrame): Data to base the table schema on.
-    - table_name (str): Name of the table to create.
-
-    Returns:
-    - str: SQL create table query.
-    """
-   
