@@ -43,17 +43,3 @@ def normalize_data(df, numerical_cols):
    #TODO
     return df
 
-# Optional: Encode Categorical Columns
-def encode_categorical(df, categorical_cols):
-    """
-    Encodes categorical variables using one-hot encoding.
-
-    Parameters:
-    - df (pd.DataFrame): Data to encode.
-    - categorical_cols (list): List of categorical column names.
-
-    Returns:
-    - pd.DataFrame: Data with encoded categorical variables.
-    """
-    #TODO
-    return df
