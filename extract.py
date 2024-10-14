@@ -3,14 +3,9 @@
 import pandas as pd
 
 def extract_data(file_path):
-    """
-    Extracts data from a CSV file.
+   
+    """TODO"""
 
-    Parameters:
-    - file_path (str): Path to the CSV file.
-
-    Returns:
-    - pd.DataFrame: Extracted data.
-    """
+    return df
 
 
